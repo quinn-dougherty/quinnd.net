@@ -75,7 +75,7 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
-          {to: '/date', label: 'Date me', position: 'left'},
+          {to: '/docs/date', label: 'Date me', position: 'left'},
         ],
       },
       footer: {

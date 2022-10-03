@@ -1,0 +1,8 @@
+{
+  "label": "Book reviews",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Some of my best goodreads posts."
+  }
+}
