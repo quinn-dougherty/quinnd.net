@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Training for further wizardry in math and CS',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Though I'm starting to think more about product/users.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Transhumanist',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Sentience really does matter, and we can make outcomes good rather than bad.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Believing true things is hard',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        I'm interested in platforms and tools that make it easier for everybody to form accurate beliefs.
       </>
     ),
   },

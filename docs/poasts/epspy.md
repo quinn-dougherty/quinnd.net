@@ -2,7 +2,7 @@
 layout: post
 title: Epsilon-Delta Proof for the Pythonista
 subtitle: And the hypothesis testing framework
-description: proofs are programs
+description: Proofs are programs
 slug: epspy
 ---
 # Functions
