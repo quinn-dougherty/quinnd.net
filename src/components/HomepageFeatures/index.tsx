@@ -16,7 +16,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Transhumanist",
-    Svg: require("@site/static/img/space.svg").default,
+    Svg: require("@site/static/img/space2.svg").default,
     description: (
       <>
         Sentience really does matter, and we can make outcomes good rather than
