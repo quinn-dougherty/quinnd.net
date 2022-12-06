@@ -11,12 +11,12 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "Math and CS",
-    Svg: require("@site/static/img/wizard.png").default,
+    Svg: require("@site/static/img/wizard.svg").default,
     description: <>Independent researcher in the alignment community.</>,
   },
   {
     title: "Transhumanist",
-    Svg: require("@site/static/img/space.png").default,
+    Svg: require("@site/static/img/space.svg").default,
     description: (
       <>
         Sentience really does matter, and we can make outcomes good rather than
@@ -26,7 +26,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "It is time for some game theory",
-    Svg: require("@site/static/img/gametheory.png").default,
+    Svg: require("@site/static/img/gametheory.svg").default,
     description: (
       <>
         I would like stakeholders and ML systems to be able to bargain, trade,
