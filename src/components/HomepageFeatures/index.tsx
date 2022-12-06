@@ -1,46 +1,44 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from "react";
+import clsx from "clsx";
+import styles from "./styles.module.css";
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
+  Svg: React.ComponentType<React.ComponentProps<"svg">>;
   description: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Training for further wizardry in math and CS',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: "Math and CS",
+    Svg: require("@site/static/img/wizard.png").default,
+    description: <>Independent researcher in the alignment community.</>,
+  },
+  {
+    title: "Transhumanist",
+    Svg: require("@site/static/img/space.png").default,
     description: (
       <>
-        Though I'm starting to think more about product/users.
+        Sentience really does matter, and we can make outcomes good rather than
+        bad.
       </>
     ),
   },
   {
-    title: 'Transhumanist',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: "It is time for some game theory",
+    Svg: require("@site/static/img/gametheory.png").default,
     description: (
       <>
-        Sentience really does matter, and we can make outcomes good rather than bad.
-      </>
-    ),
-  },
-  {
-    title: 'Believing true things is hard',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        I'm interested in platforms and tools that make it easier for everybody to form accurate beliefs.
+        I would like stakeholders and ML systems to be able to bargain, trade,
+        compete, and cooperate without catastrophic side effects.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, Svg, description }: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
+    <div className={clsx("col col--4")}>
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
