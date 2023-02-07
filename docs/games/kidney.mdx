@@ -1,0 +1,71 @@
+---
+sidebar_position: 3
+title: Donation chain
+---
+
+import Admonition from "@theme/Admonition";
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+
+# Donation chain
+
+Cooperative game, suitable for a party of more than 10 people.
+
+<Admonition type="info" title="Equipment"> 
+<p>
+Standard deck of cards, coin, whiteboard
+</p>
+</Admonition>
+
+Upon entering the party, players are handed a card from a shuffled deck, and a coin is flipped. The suit is their **blood type**, and the parity of the number of pips is their **tissue type**. If the coin is heads, then they are **donating a kidney** and if it is tails they are **receiving a kidney**.
+
+<Tabs lazy> 
+<TabItem value="three-of-hearts" label="Three of hearts" default> 
+Being dealt a three of hearts means your blood type is **hearts** and your tissue type is **odd**
+</TabItem> 
+<TabItem value="jacks-kings" label="Jacks and kings"> 
+Jacks and kings are of tissue type **odd**
+</TabItem> 
+<TabItem value="queens" label="Queens">
+Queen is of tissue type **even**
+</TabItem>
+<TabItem value="aces" label="Aces">
+Aces are of **wildcard tissue type**
+</TabItem>
+
+The **blood type compatibility** relation is a mapping of the empirical A/B/O model to suits, minus polarity (so no distinction between O+ and O-, think simply of O).
+
+<details> 
+<summary>
+Including polarity
+</summary>
+<p>
+If you have above a certain threshold of people, it may be compelling to add another bit (like two decks of cards, one red on the back one blue on the back, shuffled together) to include polarity, but I think simply 4 blood types is compelling for the size of the first party I'm playing this at. 
+</p>
+</details>
+
+| Donor type | Recipient type |
+| ---------- | -------------- |
+| hearts     | hearts         |
+| hearts     | spades         |
+| diamonds   | diamonds       |
+| diamonds   | spades         |
+| spades     | spades         |
+| clovers    | hearts         |
+| clovers    | diamonds       |
+| clovers    | spades         |
+| clovers    | clovers        |
+
+This should be written on the **whiteboard** visible to the entire party throughout.
+
+The **tissue type compatibility** relation assumes that tissue types needs to map, while ace donors can map to anyone (but an ace recipient can only get from an ace recipient)
+
+| Donor type | Recipient type |
+| ---------- | -------------- |
+| even       | even           |
+| odd        | odd            |
+| ace        | even           |
+| ace        | odd            |
+| ace        | ace            |
+
+The object of the game is for every recipient at be matched with a donor, graded on a scale. In other words, the party gets one point for every transplant lined up, and wants as many points as possible.
