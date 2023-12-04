@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Quinn Dougherty",
-  staticDirectories: ['static'],
+  staticDirectories: ["static"],
   tagline: "Software etc. He/him. Philadelphia.",
   url: "https://quinnd.net",
   baseUrl: "/",
@@ -60,10 +60,7 @@ const config = {
           alt: "My Site Logo",
           src: "img/logo.png",
         },
-        items: [
-          { to: "/cv", label: "CV", position: "left" },
-          { to: "/date", label: "Date me", position: "left" },
-        ],
+        items: [{ to: "/cv", label: "CV", position: "left" }],
       },
       footer: {
         style: "dark",

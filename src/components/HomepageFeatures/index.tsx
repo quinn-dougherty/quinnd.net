@@ -12,25 +12,10 @@ const FeatureList: FeatureItem[] = [
   {
     title: "Math and CS",
     Svg: require("@site/static/img/wizard.svg").default,
-    description: <>Independent researcher in the alignment community, also interested in forecasting products/UX.</>,
-  },
-  {
-    title: "Transhumanist",
-    Svg: require("@site/static/img/space2.svg").default,
     description: (
       <>
-        Sentience really does matter, and we can make outcomes good rather than
-        bad.
-      </>
-    ),
-  },
-  {
-    title: "It is time for some game theory",
-    Svg: require("@site/static/img/gametheory.svg").default,
-    description: (
-      <>
-        I would like stakeholders and ML systems to be able to bargain, trade,
-        compete, and cooperate without catastrophic side effects.
+        Independent researcher in the alignment community, also interested in
+        forecasting products/UX.
       </>
     ),
   },
