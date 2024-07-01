@@ -8,7 +8,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Quinn Dougherty",
   staticDirectories: ["static"],
-  tagline: "Software etc. He/him. Philadelphia.",
+  tagline: "Software etc. He/him. Berkeley.",
   url: "https://quinnd.net",
   baseUrl: "/",
   onBrokenLinks: "throw",
