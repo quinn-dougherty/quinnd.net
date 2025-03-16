@@ -84,6 +84,10 @@ const config = {
                 label: "GitHub",
                 href: "https://github.com/quinn-dougherty",
               },
+              {
+                label: "Progress in Guaranteed Safe AI",
+                href: "https://gsai.substack.com",
+              },
             ],
           },
         ],

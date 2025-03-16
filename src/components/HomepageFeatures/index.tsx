@@ -12,7 +12,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: "Math and CS",
     Svg: require("@site/static/img/wizard.svg").default,
-    description: <>Working on Guaranteed-safe AI</>,
+    description: <>Working on Guaranteed Safe AI</>,
   },
 ];
 

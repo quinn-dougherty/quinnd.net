@@ -7,4 +7,4 @@ title: About
 
 - More than a little involved in effective altruism
 - Most of my projects revolve around software, though I also try to keep my CS/math muscles exercised
-- `quinnd at riseup dot net`, or `quinn#9100` on discord
+- `quinn at beneficialaifoundation dot org` or `quinn.dougherty92 at gmail dot com`, or `quinn_dougherty` on discord
