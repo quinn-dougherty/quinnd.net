@@ -60,7 +60,10 @@ const config = {
           alt: "My Site Logo",
           src: "img/logo.png",
         },
-        items: [{ to: "/cv", label: "CV", position: "left" }],
+        items: [
+          { to: "/cv", label: "CV", position: "left" },
+          { to: "/date", label: "Date me", position: "left" },
+        ],
       },
       footer: {
         style: "dark",
