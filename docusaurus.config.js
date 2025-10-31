@@ -72,16 +72,16 @@ const config = {
             title: "Socials",
             items: [
               {
+                label: "Can we secure AI via formal methods?",
+                href: "https://gsai.substack.com",
+              },
+              {
                 label: "LessWrong",
                 href: "https://lesswrong.com/users/quinn-dougherty",
               },
               {
                 label: "Effective Altruism Forum",
                 href: "https://forum.effectivealtruism.org/users/quinn",
-              },
-              {
-                label: "Manifold",
-                href: "https://manifold.markets/Quinn",
               },
               {
                 label: "GitHub",
@@ -92,8 +92,8 @@ const config = {
                 href: "https://x.com/qd_forall",
               },
               {
-                label: "Progress in Guaranteed Safe AI",
-                href: "https://gsai.substack.com",
+                label: "Manifold",
+                href: "https://manifold.markets/Quinn",
               },
             ],
           },
